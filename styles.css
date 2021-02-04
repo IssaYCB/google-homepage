@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+}
+main {
+    height: 100vh;
+}
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: arial, sans-serif;
+    padding: 0;
+}
+
+#wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper > * {
+}
+
+header {
+    padding-top: 1%;
+}
+ul,li {
+    display: inline;
+
+}
+
+a {
+    color: #70757a;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-bar-container {
+    display: flex;
+    justify-content: flex-start;
+justify-content: center;
+    padding: 0;
+    height: auto;
+    flex: 1 1 5%;
+
+}
+
+ul li{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+
+}
+
+.nav-bar-container-left  >  li:first-child {
+    margin-right: 5px;
+    margin-left: 15px;
+    padding: 5px;
+
+}
+.nav-bar-container-right li:last-child {
+    margin-right: 15px;
+    margin-left: 5px;
+   padding: 0;
+
+
+}
+
+.nav-bar-container-right {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-left: auto;
+/* width: 100%; */
+
+}
+.nav-bar-container-right a {
+flex: 10 1 100%;
+}
+    
+.nav-bar-container-left {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+
+.nav-bar-container-right > .icon-menu > a > img {
+    width: 20px;
+}
+
+.nav-bar-container-right > .icon-profile > a > img{
+    width: 38px;
+    padding: 0;
+    margin: 0;
+}
+#search-bar {
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex: 1 1 auto;
+
+}
+footer {
+    display: flex;
+    padding: 0;
+    background-color: rgb(242, 242, 242);
+
+}
+
+
+
+
+.footer-container-left  >  li:first-child {
+    margin-right: 5px;
+    margin-left: 15px;
+
+
+}
+.nav-bar-container-right li:last-child {
+    margin-right: 15px;
+    margin-left: 5px;
+   padding: 0;
+
+
+}
+
+.footer-container-right {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-left: auto;
+/* width: 100%; */
+
+}
+.footer-container-right a {
+flex: 10 1 100%;
+}
+    
+.footer-container-left {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+
